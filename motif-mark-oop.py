@@ -222,5 +222,5 @@ ctx.move_to(x_start + 128 , y_start + 36)
 ctx.show_text("Gene")
 
 
-name = fasta_file.split(".")
-surface.write_to_png(f"{name[0]}.png")
+prefix = fasta_file.split(".")
+surface.write_to_png(f"{prefix[0]}.png")
